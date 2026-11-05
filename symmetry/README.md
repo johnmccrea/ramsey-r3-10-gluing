@@ -9,7 +9,13 @@ them. They are here for transparency.
 * `sym_sat.py`: the encoder in its later form. Its docstring explains how a permutation of each cycle
   type (c cycles of length p, f fixed points) is fixed, and why that loses no generality.
 * `sym_sat_oct20.py` and `batch40.sh`: the earlier version and the batch script that produced
-  `batch40.log` on October 20, 2026. That log shows the outcome of each case as run: most proofs
-  verified, four did not (marked `s NOT VERIFIED`), and one case timed out. Some of those cases were
-  later re-run with the newer encoder and sent for an independent check, which was not completed. We
-  make no claim about any of them.
+  `batch40.log` on October 20, 2026. That log shows the outcome of each case as run. Of the cases
+  above, most proofs verified, four did not (marked `s NOT VERIFIED`), and one, (p, f) = (19, 21), timed
+  out; the log also has exploratory runs for p = 3, 5 and 7 outside that scope, four of which timed
+  out. Some cases were later re-run with the newer encoder and sent for an independent check, which
+  was not completed; the logs of those re-runs are not included. We make no claim about any of these
+  cases, including those that verified, such as (7, 5): they would only replicate published results.
+* The scripts are as they ran, so they contain paths from the machine they ran on (`batch40.sh`
+  changes into `/home/claude/sym`; `sym_sat_oct20.py` has a default `drat-trim` path). Set the
+  `DRAT` environment variable (and, for `sym_sat.py`, `CADICAL`), or edit those lines, to run them
+  elsewhere.

@@ -14,3 +14,4 @@ Order of the d=8 stage: make_chunks.py -> worker.sh front 10 (Mini) / worker.sh 
 calib.sh / calib2.sh: cross-machine calibration runs (Oct 25), both PASS.
 close_entry.py = v1 closer (Nov 1 first run, proofs not kept); close_entry_v2.py = v2.1 (production evidence run). driver.py: the known pipefail issue
 (Oct 24 decision: fix before the next rung) is unfixed in this copy; rung 0 used it as is (d=8 via split8/run_one.sh, which has pipefail).
+(STATUS.md, cited above, is the project's internal run log; it is not part of this repository.)
