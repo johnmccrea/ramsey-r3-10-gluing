@@ -1,5 +1,7 @@
 # Neighbourhood gluing and a certified nonextension result for R(3,10)
 
+> The paper is forthcoming on arXiv; this note will be replaced by its link.
+
 Code for the paper *Neighbourhood Gluing and a Certified Nonextension Result for R(3,10)*
 by John McCrea (2026). The data and certificates are on Zenodo:
 [doi:10.5281/zenodo.23928054](https://doi.org/10.5281/zenodo.23928054).
