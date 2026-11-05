@@ -1,0 +1,9 @@
+SAT solver result: UNSAT
+G39_s2_radius12.cnf b30e23005e0437d8ac85dc45c54e2309ece96a544bed22884dd3293013a642d6
+G39_s2_radius12.proof 4c706fd2c06acd0c00e863fb62b3ac0b40c0834dbc380b5de61ea95676f9731a
+G39_s2.edgelist d0d8bee7b476df1b46491fc8db578cbc701edb1a1d70e20e9c71b1005ccf5d71
+s VERIFIED
+
+real	7m18.244s
+user	7m9.745s
+sys	0m5.308s

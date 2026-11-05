@@ -1,0 +1,4 @@
+# Formula hashes in the run records depend on the PySAT version. The production run used
+# the development build 1.9.dev16; install that exact version to reproduce the hashes.
+python-sat==1.9.dev16
+networkx

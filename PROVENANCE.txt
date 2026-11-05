@@ -1,0 +1,16 @@
+Production files as used on John's Mac mini (~/gluing2), copied by Claude-Mini 2026-11-04 ~13:55 PT. SHA-256 of each in SHA256SUMS.
+Air: the MacBook Air ran from split8_air.tgz (+ split8_chunks.tgz, + calib2.sh), unpacked to ~/split8 on Oct 25. Claude-Mini re-opened both
+tarballs today (still on the Mini): build.sh, calib.sh, make_chunks.py, merge.sh, run_one.sh, worker.sh, src/glue.c and manifest.txt are
+byte-identical to the Mini's split8 copies, and all 835 chunk files are identical. Not checked: whether the Air's ~/split8 copies were edited
+after unpacking (would need John to run sha256 on the Air). Binaries differ by machine: each machine compiled glue (from the same glue.c) and
+labelg (nauty 2.8.8 via pynauty-2.8.8.1, in the package); the 40 chunks run on both machines gave identical outputs.
+Mini binaries: ~/gluing2/glue = split8/bin/glue sha256 26123c31bec19dd723184957f530f42adead6e2abcb6996a535856692f1f33b5; split8/bin/labelg 36f56da1…1e90.
+Top-level glue.c = split8/src/glue.c (same sha256).
+Hand step (not in any script): the n23 list cache/k8_n23_e49-50_D7_d0.g6 (8,343 graphs, sha256 0bab3d1f…cf3d7a) was finished by hand on Oct 24–25
+after ladder9/driver were stopped (Oct 24 decision): the last driver job's output merged exactly as driver.py does
+(LC_ALL=C sort -m -u raw.out0 raw -> raw.merged, byte-identical to raw; d=7 added 0), then raw copied to the cache name. Intermediate files kept
+in cache/. Full record: STATUS.md 2026-10-25 00:07 PT (PROVENANCE line). make_chunks.py then split that list (seed 20261024, 10 cores/chunk, 835 chunks).
+Order of the d=8 stage: make_chunks.py -> worker.sh front 10 (Mini) / worker.sh back 6 (Air) -> run_one.sh per chunk -> merge.sh (dry run, then --write).
+calib.sh / calib2.sh: cross-machine calibration runs (Oct 25), both PASS.
+close_entry.py = v1 closer (Nov 1 first run, proofs not kept); close_entry_v2.py = v2.1 (production evidence run). driver.py: the known pipefail issue
+(Oct 24 decision: fix before the next rung) is unfixed in this copy; rung 0 used it as is (d=8 via split8/run_one.sh, which has pipefail).

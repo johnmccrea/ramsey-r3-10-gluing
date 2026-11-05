@@ -1,0 +1,19 @@
+[n40_a9_p37_f3_min5] UNSAT in 0.0s (1 rounds, 0 lazy); drat-trim: ['s VERIFIED']
+[n40_a9_p31_f9_min5] UNSAT in 0.0s (1 rounds, 0 lazy); drat-trim: ['s VERIFIED']
+[n40_a9_p29_f11_min5] UNSAT in 2.5s (44 rounds, 4558 lazy); drat-trim: ['s VERIFIED']
+[n40_a9_p23_f17_min5] UNSAT in 6.7s (65 rounds, 10346 lazy); drat-trim: ['s NOT VERIFIED']
+[n40_a9_p19_f2_min5] UNSAT in 0.0s (1 rounds, 0 lazy); drat-trim: ['s VERIFIED']
+[n40_a9_p19_f21_min5] TIMEOUT after 246s (205 rounds, 35331 lazy)
+[n40_a9_p17_f6_min5] UNSAT in 0.0s (1 rounds, 0 lazy); drat-trim: ['s VERIFIED']
+[n40_a9_p17_f23_min5] UNSAT in 42.8s (52 rounds, 10200 lazy); drat-trim: ['s NOT VERIFIED']
+[n40_a9_p13_f1_min5] UNSAT in 0.0s (1 rounds, 0 lazy); drat-trim: ['s VERIFIED']
+[n40_a9_p13_f14_min5] UNSAT in 6.8s (137 rounds, 23185 lazy); drat-trim: ['s NOT VERIFIED']
+[n40_a9_p13_f27_min5] UNSAT in 0.0s (1 rounds, 0 lazy); drat-trim: ['s VERIFIED']
+[n40_a9_p11_f7_min5] UNSAT in 0.0s (1 rounds, 0 lazy); drat-trim: ['s VERIFIED']
+[n40_a9_p11_f18_min5] UNSAT in 138.8s (113 rounds, 21437 lazy); drat-trim: ['s NOT VERIFIED']
+[n40_a9_p11_f29_min5] UNSAT in 0.0s (1 rounds, 0 lazy); fresh re-solve 0.1s; drat-trim: ['s VERIFIED']
+[n40_a9_p7_f5_min5] UNSAT in 137.1s (1040 rounds, 123949 lazy); fresh re-solve 439.4s; drat-trim: ['s VERIFIED']
+[n40_a9_p7_f12_min5] TIMEOUT after 241s (388 rounds, 66281 lazy)
+[n40_a9_p5_f0_min5] TIMEOUT after 240s (2566 rounds, 404793 lazy)
+[n40_a9_p5_f5_min5] TIMEOUT after 242s (1094 rounds, 178380 lazy)
+[n40_a9_p3_f1_min5] TIMEOUT after 240s (2692 rounds, 395669 lazy)
