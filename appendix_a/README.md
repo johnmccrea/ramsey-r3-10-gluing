@@ -1,6 +1,8 @@
 # Appendix A: approaches that failed, with their verification artifacts
 
-All hashes are in `SHA256SUMS`. Python 3, NetworkX, python-sat (CaDiCaL 1.5.3), drat-trim.
+Python 3, NetworkX, python-sat (its built-in CaDiCaL 1.5.3 backend, `Cadical153`) and drat-trim.
+This appendix's proofs, including `G39_s2_radius12.proof`, came from that backend, not from the
+CaDiCaL 3.0.1 binary used for the paper's main result.
 
 ## 1. Abelian Cayley exhaustive search
 * `abelian_cayley_search_oct.log`: output of `search.py` (regenerated 2026-10-17 UTC, identical to the original run).

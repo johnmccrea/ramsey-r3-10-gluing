@@ -3,7 +3,8 @@
 Order: `make_chunks.py` (835 chunks of 10 cores, seed 20261024; `manifest.txt` records the
 coverage hash) -> `worker.sh front 10` on the Mac mini and `worker.sh back 6` on the MacBook Air ->
 `run_one.sh` per chunk (with `pipefail`) -> `merge.sh` (dry run, then `--write`).
-`calib.sh` and `calib2.sh` are the cross-machine calibration runs (both passed on Oct 25, 2026).
+`calib.sh` and `calib2.sh` are the cross-machine calibration runs: `calib.sh` passed on the Mini on
+Oct 24 and on the Air on Oct 25 (identical outputs); `calib2.sh` passed on both on Oct 25, 2026.
 
 `build.sh` expects a `src/` folder holding `glue.c` (identical to the top-level `glue.c`) and
 `pynauty-2.8.8.1.tar.gz` (the PyPI source package, which bundles nauty 2.8.8). Neither is duplicated
