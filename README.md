@@ -54,8 +54,8 @@ make -C drat-trim drat-trim
 Download the Zenodo record and copy its files into the repository root. Run every command below
 from there.
 
-1. The deposit's `README.txt` verifies every file's hash and shows how to unpack the archives and
-   re-check a proof. To re-check all 39 proofs, unpack the formulas and proofs as it describes, then
+1. The deposit's `README.txt` gives the archive hashes and shows how to unpack the archives and
+   re-check one proof. To re-check all 39 proofs, unpack the formulas and proofs as it describes, then
    run:
 
    ```
