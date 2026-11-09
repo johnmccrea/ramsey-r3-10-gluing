@@ -1,8 +1,8 @@
-# Neighbourhood gluing and a certified nonextension result for R(3,10)
+# Neighborhood gluing and a certified nonextension result for R(3,10)
 
 > The paper is forthcoming on arXiv; this note will be replaced by its link.
 
-Code for the paper *Neighbourhood Gluing and a Certified Nonextension Result for R(3,10)*
+Code for the paper *Neighborhood Gluing and a Certified Nonextension Result for R(3,10)*
 by John McCrea (2026). The data and certificates are on Zenodo:
 [doi:10.5281/zenodo.23928054](https://doi.org/10.5281/zenodo.23928054).
 
@@ -18,7 +18,7 @@ whole class.
 
 | File | Role |
 |---|---|
-| `glue.c`, `prune_alpha.c`, `driver.py`, `edge_lp_r3k.py` | The neighbourhood gluer (after Goedgebeur and Radziszowski, 2013) |
+| `glue.c`, `prune_alpha.c`, `driver.py`, `edge_lp_r3k.py` | The neighborhood gluer (after Goedgebeur and Radziszowski, 2013) |
 | `gluer_README.md` | The gluer's own working notes, as used during the run |
 | `build.sh` | Builds nauty 2.8.8, the gluer, CaDiCaL and drat-trim |
 | `validate_all.py` | Reproduces published counts; every line must read MATCH |
@@ -125,10 +125,10 @@ the degree-8 stage alone ran at about four chunks an hour on the Mac mini.
   `geng` in the base cases) could silently truncate a stage's output. The stages before degree 8 ran on
   this driver; each was checked against its published count, which would catch such a loss.
   The degree-8 stage ran through `split8/run_one.sh`, which does use `pipefail`. We ship `driver.py`
-  unchanged because it is what ran; any fix will come as a separate, labelled change.
+  unchanged because it is what ran; any fix will come as a separate, labeled change.
 
 ## How this was made
 
 The work was directed by one non-mathematician collaborating with several AI systems; Claude wrote
-most of the code. The paper's closing section describes how. Licence: MIT (code). The data and
+most of the code. The paper's closing section describes how. License: MIT (code). The data and
 certificates on Zenodo are CC BY 4.0.
